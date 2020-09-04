@@ -1,0 +1,45 @@
+@page
+@model CallAPIModel
+@{
+    ViewData["Title"] = "Call API?";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>This page will call an API and display the data returned.</p>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core"> calling API's .NET Core</a>.</p>
+    <p> Line 1 </p>
+
+</div>
+    
+<table>
+    <tbody> 
+        @{
+            @foreach (var record in @Model.WFRList)
+            {
+                <tr>
+                    <td>
+                        Date: @Html.DisplayFor(modelItem => record.date), 
+                    </td>
+                    <td>
+                        TempC: @Html.DisplayFor(modelItem => record.temperatureC), 
+                    </td>
+                    <td>
+                        TempF: @Html.DisplayFor(modelItem => record.temperatureF), 
+                    </td>
+                    <td>
+                        Summary: @Html.DisplayFor(modelItem => record.summary)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+
+
+
+

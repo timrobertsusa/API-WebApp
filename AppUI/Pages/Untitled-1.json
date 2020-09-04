@@ -1,0 +1,21 @@
+{"forecasts": [
+    {
+        "date": "2020-08-27T18:21:54.0321329-04:00",
+        "temperatureC": 0,
+        "temperatureF": 32,
+        "summary": "Balmy"
+    },
+    {
+        "date": "2020-08-28T18:21:54.0324103-04:00",
+        "temperatureC": 9,
+        "temperatureF": 48,
+        "summary": "Chilly"
+    },
+    {
+        "date": "2020-08-29T18:21:54.0324177-04:00",
+        "temperatureC": -5,
+        "temperatureF": 24,
+        "summary": "Mild"
+    }
+]
+}
